@@ -1,0 +1,104 @@
+@media (min-width:680px){
+    nav{
+        padding: 20px 80px;
+    }
+    .hero{
+        gap: 90px;
+        padding: 150px 80px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .hero h1{
+        font-size: 4.2rem;
+    }
+    .hero-txt{
+        gap: 90px;
+    }
+    .hero p{
+        font-size: 1.5rem;
+    }
+    button{
+        padding: 20px 25px;
+        border-radius: 35px;
+    }
+    .drop-levi{
+        gap: 100px;
+    }
+    main{
+        padding: 0px 80px;
+    }
+    footer{
+    padding: 20px 80px 20px;
+    }
+}
+@media (min-width:950px){
+    .dropdown a{
+        display: inline-block;
+    }
+    .dropdown .content {
+        display: block;
+        position: static;
+        background-color: black;
+    }
+    .content a{
+        color: white;
+    }
+    .dropdown a:hover{
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    .dropdown svg{
+        display: none;
+    }
+    main > section{
+        flex-direction: row;
+    }
+    .img-container{
+        flex:1;
+    }
+    .text-container{
+        flex:1;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .drop-levi{
+    flex-direction: row;
+    gap: 30px;
+    }
+    .drop-levi > div{
+    flex: 1;
+    }
+}
+@media (min-width: 1490px){
+    .hero h1{
+        font-size: 5rem;
+    }
+    .hero p{
+        font-size: 1.5rem;
+        max-width: 50ch;
+    }
+    main{
+        align-items: center;
+    }
+    main video{
+        align-self: center;
+        max-width: 1100px;
+    }
+    main > h2{
+        max-width: 30ch;
+        align-self: center;
+    }
+    main > section{
+        max-width: 1400px;
+    }
+    .img-container{
+        flex:1;
+        max-width: 800px;
+    }
+    .text-container{
+        flex:1;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
